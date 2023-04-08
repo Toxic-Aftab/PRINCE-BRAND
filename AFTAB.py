@@ -20,6 +20,6 @@ if bit == '64bit':
 
 elif bit == '32bit':
 
-    from PRINCE import Spy
+    from AFTAB2 import menu
 
-    Spy()
+    menu()

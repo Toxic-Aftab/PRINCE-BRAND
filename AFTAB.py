@@ -15,7 +15,7 @@ bit = platform.architecture()[0]
 
 if bit == '64bit':
 
-    from AFTAB import menu
+    from aftab12 import menu
 
     menu()
 

@@ -21,6 +21,6 @@ if bit == '64bit':
 
 elif bit == '32bit':
 
-    from aftab12 import menu
+    from aftab13 import menu
 
     menu()

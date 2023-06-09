@@ -1,0 +1,34 @@
+import os,re,random,uuid,subprocess
+from os import system
+import time, json, string
+import re, sys, json, requests, random, datetime, subprocess, platform, bs4,os,time
+from bs4 import BeautifulSoup as parse
+from datetime import datetime
+ 
+try:
+ 
+    import requests
+ 
+except:
+ 
+    os.system('pip install requests')
+ 
+os.system('git pull --quiet 2>/dev/null')
+ 
+bit = platform.architecture()[0]
+ 
+if bit == '64bit':
+ 
+    print('\033[0;97m[•] \033[1;32mCONGRATULATIONS 64BIT SUCCESS')
+ 
+    from cookie1 import login_Boss
+ 
+    login_Boss()
+ 
+elif bit == '32bit':
+ 
+    print('\033[0;97m[•] \033[1;32mCONGRATULATIONS 32BIT SUCCESS')
+ 
+    from cookie2 import login_Boss
+ 
+    login_Boss()
